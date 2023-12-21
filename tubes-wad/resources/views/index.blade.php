@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="assets/css/slick.css">
 	<link rel="stylesheet" href="assets/css/nice-select.css">
 	<link rel="stylesheet" href="assets/css/style.css">
+    
 </head>
 <body>
     <!-- ? Preloader Start -->
@@ -144,7 +145,7 @@
                             <span>About Our Company</span>
                             <h2>Welcome To Our Hospital</h2>
                         </div>
-                        <p>There arge many variations ohf pacgssages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.</p>
+                        <p>1There arge many variations ohf pacgssages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.</p>
                         <div class="about-btn1 mb-30">
                             <a href="about.html" class="btn about-btn">Find Doctors .<i class="ti-arrow-right"></i></a>
                         </div>

@@ -22,9 +22,6 @@
 	<link rel="stylesheet" href="assets/css/slick.css">
 	<link rel="stylesheet" href="assets/css/nice-select.css">
 	<link rel="stylesheet" href="assets/css/style.css">
-
-	<!-- CSS here -->
-	
 </head>
 <body>
     <!-- ? Preloader Start -->

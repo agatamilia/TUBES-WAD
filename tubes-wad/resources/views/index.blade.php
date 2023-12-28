@@ -3,11 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Medical HTML-5 Template </title>
+    <title>Menial</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+	<!-- CSS here -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 	<link rel="stylesheet" href="assets/css/slicknav.css">
     <link rel="stylesheet" href="assets/css/flaticon.css">
@@ -20,7 +23,6 @@
 	<link rel="stylesheet" href="assets/css/slick.css">
 	<link rel="stylesheet" href="assets/css/nice-select.css">
 	<link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 <body>
     <!-- ? Preloader Start -->
@@ -29,7 +31,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder.png" alt="">
+                    <img src="assets/img/logo/loder.png" alt="error">
                 </div>
             </div>
         </div>
@@ -44,7 +46,7 @@
                     <!-- Logo -->
                     <div class="col-xl-2 col-lg-2 col-md-1">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                            <a href="index"><img src="assets/img/logo/logo-menial.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xl-10 col-lg-10 col-md-10">
@@ -53,23 +55,21 @@
                             <div class="main-menu f-right d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="doctor.html">Doctors</a></li>
-                                        <li><a href="department.html">Department</a></li>
-                                        <li><a href="blog.html">Blog</a>
+                                        <li><a href="index">Home</a></li>
+                                        <li><a href="about">About</a></li>
+                                        <li><a href="counsoler">Counselor profile</a></li>
+                                        <li><a href="service">Services</a></li>
+                                        <li><a href="appointment">appointment</a></li>
+                                        <li><a href="blog">Blog</a>
                                             <ul class="submenu">
                                                 <li><a href="blog.html">Blog</a></li>
                                                 <li><a href="blog_details.html">Blog Details</a></li>
                                                 <li><a href="elements.html">Element</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contact">Contact</a></li>
                                     </ul>
                                 </nav>
-                            </div>
-                            <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                <a href="#" class="btn header-btn">01654.066.456</a>
                             </div>
                         </div>
                     </div>   
@@ -93,16 +93,15 @@
                     <div class="row">
                         <div class="col-xl-7 col-lg-9 col-md-8 col-sm-9">
                             <div class="hero__caption">
-                                <span>Committed to success</span>
+                                <span>Your Mental Health Solution</span>
                                 <h1 class="cd-headline letters scale">We care about your 
                                     <strong class="cd-words-wrapper">
-                                        <b class="is-visible">health</b>
-                                        <b>sushi</b>
-                                        <b>steak</b>
+                                        <b class="is-visible">Mental</b>
+                                        <b>Health</b>
                                     </strong>
                                 </h1>
-                                <p data-animation="fadeInLeft" data-delay="0.1s">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi uquip ex ea commodo consequat is aute irure.</p>
-                                <a href="#" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.5s">Appointment <i class="ti-arrow-right"></i></a>
+                                <p data-animation="fadeInLeft" data-delay="0.1s">You're not alone on this journey. Our compassionate counselors are here to guide you.</p>
+                                <a href="#" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.5s">Start Your Healing Journey Menial<i class="ti-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -114,16 +113,15 @@
                     <div class="row">
                         <div class="col-xl-7 col-lg-9 col-md-8 col-sm-9">
                             <div class="hero__caption">
-                                <span>Committed to success</span>
+                                <span>Solution for your Mental Health</span>
                                 <h1 class="cd-headline letters scale">We care about your 
                                     <strong class="cd-words-wrapper">
-                                        <b class="is-visible">health</b>
-                                        <b>sushi</b>
-                                        <b>steak</b>
+                                        <b class="is-visible">Mental</b>
+                                        <b>Health</b>
                                     </strong>
                                 </h1>
-                                <p data-animation="fadeInLeft" data-delay="0.1s">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi uquip ex ea commodo consequat is aute irure.</p>
-                                <a href="#" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.5s">Appointment <i class="ti-arrow-right"></i></a>
+                                <p data-animation="fadeInLeft" data-delay="0.1s">You're not alone on this journey. Our compassionate counselors are here to guide you.</p>
+                                <a href="#" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.5s">Start Your Healing Journey Menial<i class="ti-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -141,21 +139,19 @@
                         <!-- Section Tittle -->
                         <div class="section-tittle section-tittle2 mb-35">
                             <span>About Our Company</span>
-                            <h2>Welcome To Our Hospital</h2>
+                            <h2>Welcome To Our Website</h2>
                         </div>
 
-                        <p>There arge many variations ohf pacgssages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.</p>
-
-                        <p>1There arge many variations ohf pacgssages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.</p>
+                        <p>Get treatment for all your mental healthcare needs.</p>
 
                         <div class="about-btn1 mb-30">
-                            <a href="about.html" class="btn about-btn">Find Doctors .<i class="ti-arrow-right"></i></a>
+                            <a href="about" class="btn about-btn">Pahami dirimu<i class="ti-arrow-right"></i></a>
                         </div>
                         <div class="about-btn1 mb-30">
-                            <a href="about.html" class="btn about-btn2">Appointment <i class="ti-arrow-right"></i></a>
+                            <a href="about" class="btn about-btn2">Self Care<i class="ti-arrow-right"></i></a>
                         </div>
                         <div class="about-btn1 mb-30">
-                            <a href="about.html" class="btn about-btn2">Emargency 1 <i class="ti-arrow-right"></i></a>
+                            <a href="about" class="btn about-btn2">Berbagi Cerita<i class="ti-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -181,8 +177,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-tittle text-center mb-100">
-                        <span>Our Departments</span>
-                        <h2>Our Medical Services</h2>
+                        <span>Services</span>
+                        <h2>Our Services</h2>
                     </div>
                 </div>
             </div>
@@ -194,37 +190,31 @@
                             <li class="nav-item">
                                 <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
                                     <i class="flaticon-teeth"></i>
-                                    <h4>Dentistry</h4>
+                                    <h4>Pahami dirimu</h4>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
                                     <i class="flaticon-cardiovascular"></i>
-                                    <h4>Cardiology</h4>
+                                    <h4>Self Care</h4>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
                                     <i class="flaticon-ear"></i>
-                                    <h4>ENT Specialists</h4>
+                                    <h4>Berbagi Cerita</h4>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="Astrology-tab" data-toggle="tab" href="#Astrology" role="tab" aria-controls="contact" aria-selected="false">
                                     <i class="flaticon-bone"></i>
-                                    <h4>Astrology</h4>
+                                    <h4>Hotline</h4>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="Neuroanatomy-tab" data-toggle="tab" href="#Neuroanatomy" role="tab" aria-controls="contact" aria-selected="false">
                                     <i class="flaticon-lung"></i>
-                                    <h4>Neuroanatomy</h4>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
-                                    <i class="flaticon-cell"></i>
-                                    <h4>Blood Screening</h4>
+                                    <h4>Meditation</h4>
                                 </a>
                             </li>
                         </ul>
@@ -234,109 +224,6 @@
             <div class="dept_main_info white-bg">
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <!-- single_content  -->
-                        <div class="row align-items-center no-gutters">
-                            <div class="col-lg-7">
-                                <div class="dept_info">
-                                    <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    <a href="#" class="dep-btn">Appointment<i class="ti-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-5">
-                                <div class="dept_thumb">
-                                    <img src="assets/img/gallery/department_man.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single_content  -->
-                    </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <!-- single_content  -->
-                        <div class="row align-items-center no-gutters">
-                            <div class="col-lg-7">
-                                <div class="dept_info">
-                                    <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    <a href="#" class="dep-btn">Appointment<i class="ti-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-5">
-                                <div class="dept_thumb">
-                                    <img src="assets/img/gallery/department_man.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single_content  -->
-                    </div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                        <!-- single_content  -->
-                        <div class="row align-items-center no-gutters">
-                            <div class="col-lg-7">
-                                <div class="dept_info">
-                                    <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    <a href="#" class="dep-btn">Appointment<i class="ti-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-5">
-                                <div class="dept_thumb">
-                                    <img src="assets/img/gallery/department_man.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single_content  -->
-                    </div>
-                    <div class="tab-pane fade" id="Astrology" role="tabpanel" aria-labelledby="Astrology-tab">
-                        <!-- single_content  -->
-                        <div class="row align-items-center no-gutters">
-                            <div class="col-lg-7">
-                                <div class="dept_info">
-                                    <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    <a href="#" class="dep-btn">Appointment<i class="ti-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-5">
-                                <div class="dept_thumb">
-                                    <img src="assets/img/gallery/department_man.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single_content  -->
-                    </div>
-                    <div class="tab-pane fade" id="Neuroanatomy" role="tabpanel" aria-labelledby="Neuroanatomy-tab">
-                        <!-- single_content  -->
-                        <div class="row align-items-center no-gutters">
-                            <div class="col-lg-7">
-                                <div class="dept_info">
-                                    <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    <a href="#" class="dep-btn">Appointment<i class="ti-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-5">
-                                <div class="dept_thumb">
-                                    <img src="assets/img/gallery/department_man.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single_content  -->
-                    </div>
-                    <div class="tab-pane fade" id="Blood" role="tabpanel" aria-labelledby="Blood-tab">
-                        <!-- single_content  -->
-                        <div class="row align-items-center no-gutters">
-                            <div class="col-lg-7">
-                                <div class="dept_info">
-                                    <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    <a href="#" class="dep-btn">Appointment<i class="ti-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-5">
-                                <div class="dept_thumb">
-                                    <img src="assets/img/gallery/department_man.png" alt="">
-                                </div>
                             </div>
                         </div>
                         <!-- single_content  -->
@@ -354,8 +241,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section-tittle text-center mb-100">
-                        <span>Our Gellary</span>
-                        <h2>Our Medical Camp</h2>
+                        <span>Our Gallery</span>
+                        <h2>Our Team</h2>
                     </div>
                 </div>
             </div>
@@ -416,7 +303,7 @@
                     <div class="testimonial-caption ">
                         <div class="testimonial-top-cap">
                             <img src="assets/img/gallery/testimonial.png" alt="">
-                            <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for yout hard.”</p>
+                            <p>“I'm profoundly grateful for the existence of Menial. It has been a guiding light in my darkest moments, offering not only information and tools but, more importantly, a sense of hope and understanding. ”</p>
                         </div>
                         <!-- founder -->
                         <div class="testimonial-founder d-flex align-items-center justify-content-center">
@@ -424,7 +311,7 @@
                                 <img src="assets/img/gallery/Homepage_testi.png" alt="">
                             </div>
                             <div class="founder-text">
-                                <span>Margaret Lawson</span>
+                                <span>Muhammad Humam</span>
                                 <p>Chif Photographer</p>
                             </div>
                         </div>
@@ -444,8 +331,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section-tittle text-center mb-100">
-                        <span>Our Doctors</span>
-                        <h2>Our Specialist</h2>
+                        <span>Our Team</span>
+                        <h2>Lets Meet With Our Professionals Counsellor Profiles</h2>
                     </div>
                 </div>
             </div>
@@ -457,8 +344,8 @@
                             <img src="assets/img/gallery/team2.png" alt="">
                         </div>
                         <div class="team-caption">
-                            <h3><a href="#">Alvin Maxwell</a></h3>
-                            <span>Creative UI Designer</span>
+                            <h3><a href="#">Dr. Danu Jiwo</a></h3>
+                            <span>Clinical Psychologist, Hypnotherapist</span>
                             <!-- Team social -->
                             <div class="team-social">
                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -475,8 +362,8 @@
                             <img src="assets/img/gallery/team3.png" alt="">
                         </div>
                         <div class="team-caption">
-                            <h3><a href="#">Maria Smith</a></h3>
-                            <span>Agency Manager</span>
+                            <h3><a href="#">Dr. Amilia Agata</a></h3>
+                            <span>Clinical Psychologist, Hypnotherapist</span>
                             <!-- Team social -->
                             <div class="team-social">
                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -493,8 +380,8 @@
                             <img src="assets/img/gallery/team1.png" alt="">
                         </div>
                         <div class="team-caption">
-                            <h3><a href="#">Angela Doe</a></h3>
-                            <span>Designer</span>
+                            <h3><a href="#">Dr. Farel Baihaky</a></h3>
+                            <span>Clinical Psychologist, Hypnotherapist</span>
                             <!-- Team social -->
                             <div class="team-social">
                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -509,122 +396,7 @@
         </div>
     </div>
     <!-- Team End -->
-     <!--? Contact form Start -->
-     <div class="contact-form-main">
-        <div class="container">
-            <div class="row justify-content-end">
-                <div class="col-xl-7 col-lg-7">
-                    <div class="form-wrapper">
-                        <!--Section Tittle  -->
-                        <div class="form-tittle">
-                            <div class="row ">
-                                <div class="col-xl-12">
-                                    <div class="section-tittle section-tittle2">
-                                        <span>Appointment Apply Form</span>
-                                        <h2>Appointment Form</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Section Tittle  -->
-                        <form id="contact-form" action="#" method="POST">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-box user-icon mb-30">
-                                        <input type="text" name="name" placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-box email-icon mb-30">
-                                        <input type="text" name="email" placeholder="Phone">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 mb-30">
-                                    <div class="select-itms">
-                                        <select name="select" id="select2">
-                                            <option value="">Health Law</option>
-                                            <option value="">saiful islam</option>
-                                            <option value="">Arafath Miya</option>
-                                            <option value="">Shakil Miya</option>
-                                            <option value="">Tamim Sharker</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-box subject-icon mb-30">
-                                        <input type="Email" name="subject" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-box message-icon mb-65">
-                                        <textarea name="message" id="message" placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="submit-info">
-                                        <button class="btn" type="submit">Submit Now <i class="ti-arrow-right"></i> </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- contact left Img-->
-        <div class="from-left d-none d-lg-block">
-            <img src="assets/img/gallery/contact_form.png" alt="">
-        </div>
-    </div>
-    <!-- Contact form End -->
-    <!--? gallery Products Start -->
-    <div class="gallery-area fix">
-        <div class="container-fluid p-0">
-            <div class="row no-gutters">
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div class="gallery-box">
-                        <div class="single-gallery">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery1.png);"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div class="gallery-box">
-                        <div class="single-gallery">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery2.png);"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="gallery-box">
-                        <div class="single-gallery">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery3.png);"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="gallery-box">
-                        <div class="single-gallery">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery4.png);"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div class="gallery-box">
-                        <div class="single-gallery">
-                             <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery5.png);"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div class="gallery-box">
-                        <div class="single-gallery">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery6.png);"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- gallery Products End -->
+    
     <!--? Blog start -->
     <div class="home_blog-area section-padding30">
         <div class="container">
@@ -632,8 +404,8 @@
                 <div class="cl-xl-7 col-lg-8 col-md-10">
                     <!-- Section Tittle -->
                     <div class="section-tittle text-center mb-70">
-                        <span>Oure recent news</span>
-                        <h2>OurNews From Blog</h2>
+                        <span>Our recent news</span>
+                        <h2>Our News From Blog</h2>
                     </div> 
                 </div>
             </div>
@@ -646,7 +418,7 @@
                         <div class="blogs-cap">
                             <div class="date-info">
                                 <span>Health</span>
-                                <p>Nov 30, 2020</p>
+                                <p>Nov 30, 2023</p>
                             </div>
                             <h4><a href="blog_details.html">Amazing Places To Visit In Summer</a></h4>
                             <a href="blog_details.html" class="read-more1">Read more</a>
@@ -661,7 +433,7 @@
                         <div class="blogs-cap">
                             <div class="date-info">
                                 <span>Checkup</span>
-                                <p>Nov 30, 2020</p>
+                                <p>Nov 30, 2023</p>
                             </div>
                             <h4><a href="blog_details.html">Developing Creativithout Losing Visual</a></h4>
                             <a href="blog_details.html" class="read-more1">Read more</a>
@@ -676,7 +448,7 @@
                         <div class="blogs-cap">
                             <div class="date-info">
                                 <span>Operation</span>
-                                <p>Nov 30, 2020</p>
+                                <p>Nov 30, 2023</p>
                             </div>
                             <h4><a href="blog_details.html">Winter Photography Tips from Glenn</a></h4>
                             <a href="blog_details.html" class="read-more1">Read more</a>
@@ -698,17 +470,16 @@
                             <div class="single-footer-caption mb-50">
                                 <!-- logo -->
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                    <a href="index"><img src="assets/img/logo/logo-menial2.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-5">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
-                                    <h4>About Us</h4>
+                                    <h4>Address</h4>
                                     <div class="footer-pera">
-                                        <p class="info1">Lorem igpsum doldfor sit amet, adipiscing elit, sed do eiusmod tempor cergelit rgh. </p>
-                                        <p class="info1">Lorem ipsum dolor sit amet, adipiscing elit.</p>
+                                        <p class="info1">Jl. Telekomunikasi. 1, Terusan Buahbatu - Bojongsoang, Telkom University, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40257</p>
                                     </div>
                                 </div>
                             </div>
@@ -716,8 +487,8 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-number mb-50">
-                                    <h4><span>+564 </span>7885 3222</h4>
-                                    <p>youremail@gmail.com</p>
+                                    <h4><span>+123 </span>4567 8910</h4>
+                                    <p>menial@gmail.com</p>
                                 </div>
                                 <!-- Form -->
                                 <div class="footer-form">
@@ -741,9 +512,7 @@
                     <div class="row d-flex justify-content-between align-items-center">
                         <div class="col-xl-9 col-lg-8">
                             <div class="footer-copy-right">
-                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                <p>Copyright ©️2023 Menial</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4">
